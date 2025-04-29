@@ -6,3 +6,5 @@ c = 1 (i.e. we are sure, there is an object), while a OneHotEncoded vecor is att
 Generaly, as an output we get SxSxL tensor, where L=5+num_classes. Here one may clearly observe (from the size of target tensor, that one grid cell can only detect one class - 
 here also only one object per grid cell). If there is an object in the gird cell, there is a vector ([1, xc, yc, w, h, ohe_vec]) at the corresponding coordinates in the output. For no detections, 
 there is just a vector of length L filled with zeros
+
+More info on my Medium.com channel https://medium.com/@telega.slawomir.ai/yolo-v1-implementation-dataset-class-creation-0822eea4b7fa
